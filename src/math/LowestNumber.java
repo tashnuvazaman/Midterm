@@ -15,7 +15,7 @@ public class LowestNumber {
 
 
 		//implementation here...
-int a[]
+int a[];
 
 	}
 

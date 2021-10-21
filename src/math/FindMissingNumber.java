@@ -1,5 +1,7 @@
 package math;
 
+import java.sql.SQLOutput;
+
 /**
  * Created by mrahman on 04/22/17.
  */
@@ -14,7 +16,13 @@ public class FindMissingNumber {
 
 
         //implementation here...
-
+int[] a = {10, 2, 1, 4, 5, 3, 7, 8, 6};
+int b = a.length+1;
+int sum = (b*(b+1))/2;
+for (int i = 0; i<a.length; i++){
+    sum = sum -a[i];
+}
+System.out.println("The missing number is: "+sum);
     }
 
 }
