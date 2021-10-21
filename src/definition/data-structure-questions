@@ -1,79 +1,93 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+A.Data Structures are necessary for designing efficient algorithms. It provides reusability and abstraction .
 
 What are the various operations that can be performed on different Data Structures?
-A.
+A.Insertion: Add a new data item in the given collection of data items.
+  Deletion: Delete an existing data item from the given collection of data items.
+  Traversal: Access each data item exactly once so that it can be processed.
 
 List out the areas in which data structures are applied extensively?
-A.
+A.List out few areas in which data structures are applied extensively?
+  Compiler Design,
+  Operating System,
+  Database Management System,
+  Statistical analysis package,
+  Numerical Analysis,
+  Graphics,
+  Artificial Intelligence,
+  and Simulation.
 
 what is an Array?
-A.
+A.An array is a container object that holds a fixed number of values of a single type
 
 what is the difference between the Array and ArrayList?
-A.
+A.Array is a fixed length data structure whereas ArrayList is a variable length Collection class.
 
 what is LinkedList?
-A.
+A.a linked list is a linear collection of data elements whose order is not given by their physical placement in memory. Instead, each element points to the next.
 
 How is an Array different from Linked List?
-A.
+A.An array is a collection of elements of a similar data type. A linked list is a collection of objects known as a node
 
 what is queue?
-A.
+A.Java Queue is an interface available in java. util package and extends java.
 
 what is stack?
-A.
+A.The stack is a linear data structure that is used to store the collection of objects
 
 what is FIFO and LIFO?
-A.
+A.FIFO-First In First Out
+LIFO- Last In First Out
 
 what is the order of complexity?
-A.
+A.Complexity can be constant, logarithmic, linear, n*log(n), quadratic, cubic, exponential, etc.
 
 what is the best case to search an element from an array?
-A.
+A.Sequential search
 
 what is the worst case to search an element from an array?
-A.
+A.Binary Search
 
 what is tree in data structure?
-A.
+A.a tree is a widely used abstract data type that simulates a hierarchical tree structure, with a root value and subtrees of children with a parent node, represented as a set of linked nodes.
 
 what is graph in data structure?
-A.
+A.a graph is an abstract data type that is meant to implement the undirected graph and directed graph concepts from the field of graph theory within mathematics.
 
 what is the difference between the HashTable and HashMap?
-A.
+A.The main difference between them is that HashMap is not thread-safe but Hashtable is thread-safe.
 
 What are the major data structures used in the following areas
-A.
+A.RDBMS Array (i.e. Array of structures)
+  Network data model Graph.
+  Hierarchical data model Trees.
+
 
 How HashMap works in java?
-A.
+A.HashMap is a data structure that uses a hash function to map identifying values, known as keys, to their associated values.
 
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
-A.
+A.ArrayIndexOutOfBoundsException is thrown to indicate that we are trying to access array element with an illegal index. This exception is thrown when the index is either negative or greater than or equal to the size of the array.
 
 What are the different ways of copying an array into another array?
-A.
+A. The clone method of the array
 
 What is difference between an array and a linked list?
-A.
+A.The major difference between Array and Linked list regards to their structure. Arrays are index based data structure where each element associated with an index. On the other hand, Linked list relies on references where each node consists of the data and the references to the previous and next element.
 
 What is DFS and BFS?
-A.
+A.BFS stands for Breadth First Search. DFS stands for Depth First Search
 
 What is Recursion?
-A.
+A.Recursion is the technique of making a function call itself
 
-What are linear and non linear data Structures?
-A.
+What are Recursion?
+A.Recursion is the technique of making a function call itself
 
 What is Big-(O)-notation?
-A.
+A.Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity.
 
 Outlined different kind of sorting algorithm with time complexity?
 A.
