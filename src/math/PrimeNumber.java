@@ -16,6 +16,26 @@ public class PrimeNumber {
 		//implementation here...
 
 
+				int i,j,count=0;
+
+
+				System.out.println("prime number between 2 to 1 million \n");
+
+
+				for(i=2;i<=1000000;i++)
+				{
+					for(j=1;j<=i;j++)
+					{
+						if(i%j==0)
+							count++;
+					}
+					if(count==2)
+
+						System.out.print(" "+i);
+					count=0;
+				}
+			}
+
 	}
 
-}
+
