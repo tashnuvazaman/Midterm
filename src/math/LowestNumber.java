@@ -3,6 +3,7 @@ package math;
 import databases.ConnectDB;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class LowestNumber {
@@ -15,8 +16,14 @@ public class LowestNumber {
 
 
 		//implementation here...
-int a[];
+int a[] = {121, 32, 44, 68, 96, 45, 21, 57, 89};
+
+
+		System.out.println("Lowest number from array a: " + getSmallest(a,9));
 
 	}
-
+public static int getSmallest(int[]a, int total){
+		Arrays.sort(a);
+		return a[0];
+}
 }
